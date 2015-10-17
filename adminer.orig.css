@@ -180,7 +180,7 @@ input[type=checkbox] {
     vertical-align: middle;
     cursor: pointer;
     background-size: 20px;
-    background-image: url('https://stillhart.biz/project/adminer/check.svg');
+    background-image: url('https://raw.githubusercontent.com/workosity/adminer.css/master/check.svg');
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -204,7 +204,7 @@ input[type=radio] {
     vertical-align: middle;
     cursor: pointer;
     background-size: 20px;
-    background-image: url('https://stillhart.biz/project/adminer/radio.svg');
+    background-image: url('https://raw.githubusercontent.com/workosity/adminer.css/master/radio.svg');
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -415,9 +415,11 @@ p code+a:visited:hover {
 #menu h1 a {
     font-style: normal
 }
-#menu h1 .version {
-    color: #fff
+#menu h1 .version,
+#menu h1 #version {
+  visibility: hidden;
 }
+
 #menu a {
     color: #34567c
 }
